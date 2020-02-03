@@ -1,14 +1,13 @@
-import Link from 'next/link';
+import Header from './comps/header';
 
 export default function () {
     return (
         <div>
+            <Header/>
             <h1>
                 hello world
             </h1>
-            <Link href="/about" title="about">
-                <a>About pages</a>
-            </Link>
+            
         </div>
     )
 }
